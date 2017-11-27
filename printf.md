@@ -1,4 +1,4 @@
-#Funkcja printf i scantf
+# Funkcja printf i scantf
 <p></p>
 <p></p>
 <p>Funkcja ##printf jest wejsciowa funkcją, która  tłumaczy wartości na znaki. </p>
@@ -12,11 +12,11 @@
 <p> Każda specyfikacje przekształcenia rozpoczyna znak %, a kończy znak charakterystyczny dla tego przekształcenia. Miedzy znakiem % i znakiem przekształcenia moga wystapić w następujacej kolejnosci:</p>
 
 ```sh
-* Minus- zlecajacy dosunieciee przekształconego argumentu do lewego kranca jego pola.
+* Minus - zlecajacy dosunieciee przekształconego argumentu do lewego kranca jego pola.
 * Liczba okreslajaca minimalny rozmiar pola. Przeksztalcony argument bedzie wpisany do pola o co najmniej takim rozmiarze. Jesli trzeba, pole zostanie uzupelnione do pelnego rozmiaru zz lewej strony ( lub zz prawej, jesli zadano dosuniecia w lewo).
 * Kropka, oddzielajaca rozmiar pola od precyzji.
 * Liczba okreslajaca precyzje, tj. maksymalna liczba znakow dla teksu, liczbe cyfr, dla wartosci calkowitej.
-*Jedna z liter: h - jesli argument calkowity nalezy wpisac jako short, lub "l"( litera el) -jesli jako long.
+* Jedna z liter: h - jesli argument calkowity nalezy wpisac jako short, lub "l"( litera el) -jesli jako long.
 
 ```
 
@@ -41,6 +41,8 @@
 
 <p> Szerokosc pola i precyzja wyniku ozna w specyfikacji przeksztalcenia liczby pominac. Na przkład %6f przeznacza na liczbe co najmniej szesc znakow, %2f wymusza dwa miejsca po kropce dziesietnej, lecz nie okresla sztywnego rozmiaru pola, a %f po prostu zleca wypisanie liczb w postaci zmiennopozycyjnej. </p>
 <p> w wyniki nastepujacych specyfikacji przekształcenia argument zostanie ewpisany jako:</p>
+
+| ---| ----------------- |
 | %d | liczba dziesietna |
 | %6d | liczba dziesietna, zajmujaca co najmnniej 6 znakow |
 | %f | liczba zmiennopozycyjna |
@@ -55,7 +57,9 @@
 
 <p>Funkcja printf uzywa swojego argumentu do okreslenia l=iczby i typow pozaostalych argumentow. Jezeli nie poda sie wystarczajacej ilosco aruentow lub sa one zlego typu, to funkcja bedzie zdezorientowana i otrzyamay blad podczas kompilacji</p>
 <p></p>
-<p> ## Zmiana dlugosci listy argumentow </p>
+
+ ## Zmiana dlugosci listy argumentow </p>
+
 <p> funkcja minprintf  sama oporacowywuje format i reszte argumentow , ale do wykonania przekształcen formatujacych wywoła prawdiwa funkcje printf </p>
 <p> deklaracja tej funkcji to:  void minprintf(char *fmt, ...) </p>
 <p> Sztuczka tej funkcji polega na tym, ze maszeruje wzdłuz list argumentow, choc ta nie ma nawet nazwy. standadowy naglowek <stdarg.h> zawera zestaw makr, ktore definiuja spsob poruszania sie po takej liscie. Realizacje tego naglowka beda roznic sie miedzy soba zaleznie od maszyny, ale poslugiwanie sie nim jest jednakowe w kazdym srodowisku C.</p>
