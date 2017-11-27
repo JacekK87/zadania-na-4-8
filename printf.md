@@ -42,6 +42,7 @@
 <p> Szerokosc pola i precyzja wyniku ozna w specyfikacji przeksztalcenia liczby pominac. Na przkład %6f przeznacza na liczbe co najmniej szesc znakow, %2f wymusza dwa miejsca po kropce dziesietnej, lecz nie okresla sztywnego rozmiaru pola, a %f po prostu zleca wypisanie liczb w postaci zmiennopozycyjnej. </p>
 <p> w wyniki nastepujacych specyfikacji przekształcenia argument zostanie ewpisany jako:</p>
 
+| znak | wartosc |
 | ---| ----------------- |
 | %d | liczba dziesietna |
 | %6d | liczba dziesietna, zajmujaca co najmnniej 6 znakow |
@@ -58,7 +59,7 @@
 <p>Funkcja printf uzywa swojego argumentu do okreslenia l=iczby i typow pozaostalych argumentow. Jezeli nie poda sie wystarczajacej ilosco aruentow lub sa one zlego typu, to funkcja bedzie zdezorientowana i otrzyamay blad podczas kompilacji</p>
 <p></p>
 
- ## Zmiana dlugosci listy argumentow </p>
+ ## Zmiana dlugosci listy argumentow 
 
 <p> funkcja minprintf  sama oporacowywuje format i reszte argumentow , ale do wykonania przekształcen formatujacych wywoła prawdiwa funkcje printf </p>
 <p> deklaracja tej funkcji to:  void minprintf(char *fmt, ...) </p>
