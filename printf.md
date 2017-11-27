@@ -18,6 +18,8 @@
 * Liczba okreslajaca precyzje, tj. maksymalna liczba znakow dla teksu, liczbe cyfr, dla wartosci calkowitej.
 *Jedna z liter: h - jesli argument calkowity nalezy wpisac jako short, lub "l"( litera el) -jesli jako long.
 
+```
+
 <p>Ponizej tabela ze znakiami przeksztalcenia. Dzialanie funkcji nie jest okreslone, jezeli znak nastepujacy po % nie jest znakiem przeksztalcenia.</p>
 
 | znak | Typ argumentu | Dana wyjscowa |
