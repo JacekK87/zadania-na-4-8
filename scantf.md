@@ -1,7 +1,7 @@
- ## Deklaracja  <p>  int  scanf( const  char  *format,  wskaźnik,  wskaźnik, ... ) ;</p>
- ## Biblioteka <p> stdio.h - standardowa biblioteka wejscia i wyjscia</p> 
+ ## Deklaracja ##  <p>  int  scanf( const  char  *format,  wskaźnik,  wskaźnik, ... ) ;</p>
+ ## Biblioteka ## <p> stdio.h - standardowa biblioteka wejscia i wyjscia</p> 
 
- ## Działanie 
+ ## Działanie ##
 
 <p>Funkcja scanf wczytuje kolejne pola (ciągi znaków), ograniczone znakiem  spacji    '  '    lub  nowej  linii  '\n'.</p>
 <p>  Obrazy  wczytywanych znaków są wyświetlane na ekranie monitora. Liczba wczytywanych  pól i sposób ich przetwarzania są zadawane za pomocą pierwszego  argumentu   funkcji scanf, oznaczonego   identyfikatorem format, którego  wartością  jest  ciąg  znaków  (teskt).</p>
