@@ -84,3 +84,12 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 <p>  3FA (16) </p>
 <p> 0011 1111 1010 (2) </p>
 <p> Liczba zapisana w systemie szesnastkowym 3FA (16) to 0011 1111 1010 (2) w systemie dwojkowym. </p>
+
+
+# Zamiana liczby osemkowej na szesnastkowa
+
+<p>  1750(8)  - liczba zapisana ósemkowo
+<p>  1    7     5     0 </p>
+<p>  1   111   101   000   - zamiana kolejnych cyfr na trójki binarne</p>
+<p> 11   1110  1000 - zamiana kolejnych cyfr na czwórki binarne</p>
+<p>  3     E     8  - zamiana kolejnych czwórek na liczby szesnastkowe</p>
