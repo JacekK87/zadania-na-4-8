@@ -1,6 +1,6 @@
  ## Deklaracja 
   <p>  int  scanf( const  char  *format,  wskaźnik,  wskaźnik, ... ); </p>
- # Biblioteka  
+  Biblioteka  
 <p> stdio.h - standardowa biblioteka wejscia i wyjscia</p> 
 
  ## Działanie 
@@ -11,7 +11,7 @@
 funkcji scanf.</p>
  <p></p>
 <p></p>
-##  Wzorzec  konwersji ma następującą postać: 
+  Wzorzec  konwersji ma następującą postać: 
 <p> % [  *  ]  [  szerokość]  [  prefiks ]   znak_konwersji </p>
 <p> Każdy  wzorzec  rozpoczyna  się  zawsze  od  znaku  procenta %, składniki  umieszczone  w  nawiasach  prostokątnych  nie  muszą występować. Znak gwiazdki * użyty  we wzorcu nakazuje pominąć kolejne pole znaków ze  strumienia wejściowego.</p> 
 <p> Szerokość określa maksymalną  liczbę  znaków,  które  mają  być  pobrane  z  kolejnego pola.  Pole  to  może  być  krótsze  niż  zadana  szerokość -w  takim przypadku  przetworzone  będą  jedynie  znaki  znajdujące  się  przed znakiem  spacji  lub  nowej  linii.</p> 
