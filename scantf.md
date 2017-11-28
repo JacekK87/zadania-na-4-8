@@ -1,12 +1,12 @@
-<p> ## Deklaracja   int  scanf( const  char  *format,  wskaźnik,  wskaźnik, ... ) ;</p>
-<p> ## Biblioteka stdio.h </p> 
+<p> ## Deklaracja ##  int  scanf( const  char  *format,  wskaźnik,  wskaźnik, ... ) ;</p>
+<p> ## Biblioteka ## stdio.h - standardowa biblioteka wejscia i wyjscia</p> 
 
-<p> ## Działanie </p>
+<p> ## Działanie ## </p>
 <p>Funkcja scanf wczytuje kolejne pola (ciągi znaków), ograniczone znakiem  spacji    '  '    lub  nowej  linii  '\n'.</p>
 <p>  Obrazy  wczytywanych znaków są wyświetlane na ekranie monitora. Liczba wczytywanych  pól i sposób ich przetwarzania są zadawane za pomocą pierwszego  argumentu   funkcji scanf, oznaczonego   identyfikatorem format, którego  wartością  jest  ciąg  znaków  (teskt).</p>
 <p>  Ciąg  ten  składa  się  z pewnej liczby wzorców konwersji - liczba wzorców występujących w formacie określa liczbę pól wczytywanych ze strumienia wejściowego  (klawiatury)  i  liczbę  wskaźników  będących  dalszymi argumentami 
 funkcji scanf.</p>>
-<p> ##  Wzorzec  konwersji ma następującą postać:</p>
+<p> ##  Wzorzec  konwersji ma następującą postać: ##</p>
 <p> % [  *  ]  [  szerokość]  [  prefiks ]   znak_konwersji </p>
 <p> Każdy  wzorzec  rozpoczyna  się  zawsze  od  znaku  procenta %, składniki  umieszczone  w  nawiasach  prostokątnych  nie  muszą występować. Znak gwiazdki * użyty  we wzorcu nakazuje pominąć kolejne pole znaków ze  strumienia wejściowego.</p> 
 <p> Szerokość określa maksymalną  liczbę  znaków,  które  mają  być  pobrane  z  kolejnego pola.  Pole  to  może  być  krótsze  niż  zadana  szerokość -w  takim przypadku  przetworzone  będą  jedynie  znaki  znajdujące  się  przed znakiem  spacji  lub  nowej  linii.</p> 
@@ -24,7 +24,7 @@ scanf - obliczona  wartość  binarna liczby  jest  wprowadzana  do  obszaru  pa
 | o       | liczba całkowita oktalna    | int*    |
 | O       | liczba całkowita oktalna    | long*   |  
 | i       | liczba  całkowita  dziesiętna,  oktalna lub heksadecymalna |  int*  |  
-| I       | liczba  całkowita  dziesiętna,  oktalna lub heksadecymalna |  long0* |  
+| I       | liczba  całkowita  dziesiętna,  oktalna lub heksadecymalna |  long* |  
 | u       | liczba całkowita dziesiętna bez znaku |  unsigned int* |  
 | U       | liczba całkowita dziesiętna bez znaku |  unsigned long* | 
 | x       | liczba całkowita heksadecymalna | int*  | 
@@ -42,7 +42,7 @@ scanf - obliczona  wartość  binarna liczby  jest  wprowadzana  do  obszaru  pa
 | ------- | --------------- | ------------- | 
 | h       |  d, i, o, u, x  | short*        | 
 | l       |  d, i, o, u, x  | long*         |
-          |  e, f, g        | double*       | 
+|         |  e, f, g        | double*       | 
 | L       |  e, f, g        | long double*  |
 
 <p></p>
@@ -53,4 +53,4 @@ konwersji. Konieczne   więc   jest   zarezerwowanie   odpowiednio dużego  obsz
 <p> Prefiks umieszczony  przed  znakiem  konwersji  redefiniuje znaczenie  tego 
 znaku. </p>        
 
-<p> ## Wynik Wynikiem  funkcji scanf jest  liczba  pól  znaków,  które  zostały poprawnie  wczytane,  poddane  konwersji,  a  obliczone  wartości zostały zapamiętane.</p>       
+<p> ## Wynik ## Wynikiem  funkcji scanf jest  liczba  pól  znaków,  które  zostały poprawnie  wczytane,  poddane  konwersji,  a  obliczone  wartości zostały zapamiętane.</p>       
