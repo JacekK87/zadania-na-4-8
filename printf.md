@@ -1,4 +1,4 @@
-# Funkcja printf i scantf
+# Funkcja printf 
 <p></p>
 <p></p>
 <p>Funkcja ##printf jest wejsciowa funkcją, która  tłumaczy wartości na znaki. </p>
@@ -6,7 +6,7 @@
 <p> Zachowanie sie funkci printf jest zdefiniowane w standardzie ANSI C </p>
 <p> int printf(char *format,arg1,arg ...)</p>
 <p> Funkcja printf nigdy nie dostawia automatycznie znaku nowego wiersza, wywolujac ja wieloktornie mozna wiec stopniowo budowac jeden wiersz wyniku. Aby dokonac podzialu na wiersze musi wystapis sekwencja \n, która reprezentuje znak nowego wiersza.
-<p> Funkcja printf pod nadzorem argumentu format przekształca, formatuje i wypisujee swojee argumenty do standardowego wyjscia. Jej wartosc jest liczbą wypisanych znaków.</p>
+<p> Funkcja printf pod nadzorem argumentu format przekształca, formatuje i wypisuje swojee argumenty do standardowego wyjscia. Jej wartosc jest liczbą wypisanych znaków.</p>
 <p> Format zawiera obiekty dwojakiego rodzaju: zwykle znaki, które są kopiowane do strumienia wyjsciowego oraz specyjikacje przkształcen z których każda wskazuje sposób przekształcenia i wypisania kolejneg argumentu funkcji printf.</p>
 <p> Pierwszym argumentem funkcji printf jest ciag znakow, ktore nalezy ypiac. Kazdy znak % symbolicznie wskazuje miejscee na wartosc kolejnego argumentu ( tzn.drugiego, trzeciego itd.) oraz podaje format ,w jakim ta wartosc bedzie wypisana. Na przklad specyjikacja %dd wskazuje na argument calkowity.</p>
 <p> Każda specyfikacje przekształcenia rozpoczyna znak %, a kończy znak charakterystyczny dla tego przekształcenia. Miedzy znakiem % i znakiem przekształcenia moga wystapić w następujacej kolejnosci:</p>
@@ -56,7 +56,7 @@
 | %s | powoduje wypisanie ciagu znakow |
 | %% | powoduje wypisanie znaku % |
 
-<p>Funkcja printf uzywa swojego argumentu do okreslenia l=iczby i typow pozaostalych argumentow. Jezeli nie poda sie wystarczajacej ilosco aruentow lub sa one zlego typu, to funkcja bedzie zdezorientowana i otrzyamay blad podczas kompilacji</p>
+<p>Funkcja printf uzywa swojego argumentu do okreslenia liczby i typow pozostalych argumentow. Jezeli nie poda sie wystarczajacej ilosci argumentow lub sa one zlego typu, to funkcja bedzie zdezorientowana i otrzyamay blad podczas kompilacji</p>
 <p></p>
 
  ## Zmiana dlugosci listy argumentow 
