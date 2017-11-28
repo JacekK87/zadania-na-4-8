@@ -1,6 +1,6 @@
  ## Deklaracja 
-  <p>  int  scanf( const  char  *format,  wskaźnik,  wskaźnik, ... ) ;</p>
- ## Biblioteka  
+  <p>  int  scanf( const  char  *format,  wskaźnik,  wskaźnik, ... ); </p>
+ # Biblioteka  
 <p> stdio.h - standardowa biblioteka wejscia i wyjscia</p> 
 
  ## Działanie 
@@ -9,7 +9,9 @@
 <p>  Obrazy  wczytywanych znaków są wyświetlane na ekranie monitora. Liczba wczytywanych  pól i sposób ich przetwarzania są zadawane za pomocą pierwszego  argumentu   funkcji scanf, oznaczonego   identyfikatorem format, którego  wartością  jest  ciąg  znaków  (teskt).</p>
 <p>  Ciąg  ten  składa  się  z pewnej liczby wzorców konwersji - liczba wzorców występujących w formacie określa liczbę pól wczytywanych ze strumienia wejściowego  (klawiatury)  i  liczbę  wskaźników  będących  dalszymi argumentami 
 funkcji scanf.</p>
- ##  Wzorzec  konwersji ma następującą postać: 
+ <p></p>
+<p></p>
+##  Wzorzec  konwersji ma następującą postać: 
 <p> % [  *  ]  [  szerokość]  [  prefiks ]   znak_konwersji </p>
 <p> Każdy  wzorzec  rozpoczyna  się  zawsze  od  znaku  procenta %, składniki  umieszczone  w  nawiasach  prostokątnych  nie  muszą występować. Znak gwiazdki * użyty  we wzorcu nakazuje pominąć kolejne pole znaków ze  strumienia wejściowego.</p> 
 <p> Szerokość określa maksymalną  liczbę  znaków,  które  mają  być  pobrane  z  kolejnego pola.  Pole  to  może  być  krótsze  niż  zadana  szerokość -w  takim przypadku  przetworzone  będą  jedynie  znaki  znajdujące  się  przed znakiem  spacji  lub  nowej  linii.</p> 
@@ -20,7 +22,7 @@ scanf - obliczona  wartość  binarna liczby  jest  wprowadzana  do  obszaru  pa
 <p></p>
 <p></p>
 
-| znak k. | wejściowe pole znaków | typ wskaźnika |
+| znak    | wejściowe pole znaków | typ wskaźnika |
 | ------- | --------------------- | ------------- |
 | d       | liczba całkowita dziesiętna | int*    |
 | D       | liczba całkowita dziesiętna | long*   |     
