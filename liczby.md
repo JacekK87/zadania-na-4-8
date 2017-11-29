@@ -1,7 +1,7 @@
 # Systemy liczbowe - binarne, osemkowe i szesnastkowe
 
-<p></p>
- # System dwójkowy – binarny 
+
+# System dwójkowy – binarny 
 W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczba 2, co oznacza, że kolejne cyfry liczby zapisanej w systemie dwójkowym oznaczają mnożniki kolejnych potęg liczby 2.</p> 
 <p>0111(2) = 0· 2e3 + 1· 2e2 + 1· 2e1 +1· 2e0 = 0 + 4 + 2 + 1 = 7 w systemie dziesietnym </p>
 
@@ -19,7 +19,7 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 ## Przeliczanie na rózne systemy
 
 <p>Zamiana z systemu dziesietnego na binarny i odwrotnie</p>
-
+|--|-|-|--| --------|
 |67|2|=|33| reszty 1|
 |33|2|=|16| reszty 1|
 |16|2|=|8 | reszty 0|
@@ -34,7 +34,7 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 
 <p> Konwersja liczby binrnej na osemkowa</p>
 
-|Tabela konfersji dwojkowo osemkowej|
+|Tabela konfersji osemkowo | dwojkowej |
 |-----------------------------------|
 | CYFRA OSEMKOWA  |   CYFRA DWOJKOWA|
 |       0         |     000         |
