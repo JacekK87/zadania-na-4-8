@@ -23,11 +23,11 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 
  <p> 67 : 2  = 33  reszty 1  ^
  <p> 33 : 2  = 16  reszty 1  |
- <p> 16 : 2  = 8  reszty 0   |
- <p> 8 : 2  =  4  reszty 0   |
- <p> 4 : 2  =  2  reszty 0   |
- <p> 2 : 2  =  1  reszty 0   |
- <p> 1 : 2  =  0  reszty 1   |
+ <p> 16 : 2  = 8  reszty 0    |
+ <p> 8 : 2  =  4  reszty 0    |
+ <p> 4 : 2  =  2  reszty 0    |
+ <p> 2 : 2  =  1  reszty 0    |
+ <p> 1 : 2  =  0  reszty 1    |
 
 <p></p>
 <p> Liczba w binarnych to 1000011 (liczbe piszemy od dołu tabeli do gory)</p>
