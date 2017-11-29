@@ -37,8 +37,8 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 <p> Konwersja liczby binrnej na osemkowa</p>
 <p></p>
 
- | -------------- | -------------- |  
- | CYFRA OSEMKOWA | CYFRA DWOJKOWA |
+ | CYFRA OSEMKOWA |   CYFRA DWOJKOWA  |
+ | ------------------- | ----------------- |
  | 0 | 000 |
  | 1 | 001 |
  | 2 | 010 |
@@ -59,8 +59,8 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 
 <p> </p>
 
- | Tabela konfersji dwojkowo szesnastkowej |
  | CYFRA SZESNASTKOWA  |   CYFRA DWOJKOWA  |
+ | ------------------- | ----------------- |
  |       0             |     0000          |
  |       1             |     0001          |
  |       2             |     0010          |
