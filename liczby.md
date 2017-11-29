@@ -61,7 +61,6 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 <p> </p>
 
  | Tabela konfersji dwojkowo szesnastkowej |
- | --------------------------------------  |
  | CYFRA SZESNASTKOWA  |   CYFRA DWOJKOWA  |
  |       0             |     0000          |
  |       1             |     0001          |
