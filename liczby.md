@@ -20,14 +20,15 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 
 <p>Zamiana z systemu dziesietnego na binarny i odwrotnie</p>
 <p></p>
-| -- | - | - | -- | -------- |
-| 67 | 2 | = | 33 | reszty 1 |
-| 33 | 2 | = | 16 | reszty 1 |
-| 16 | 2 | = | 8  | reszty 0 |
-| 8  | 2 | = | 4  | reszty 0 |
-| 4  | 2 | = | 2  | reszty 0 |
-| 2  | 2 | = | 1  | reszty 0 |
-| 1  | 2 | = | 0  | reszty 1 |
+
+ | 67 | 2 | = | 33 | reszty 1 |
+ | 33 | 2 | = | 16 | reszty 1 |
+ | 16 | 2 | = | 8  | reszty 0 |
+ | 8  | 2 | = | 4  | reszty 0 |
+ | 4  | 2 | = | 2  | reszty 0 |
+ | 2  | 2 | = | 1  | reszty 0 |
+ | 1  | 2 | = | 0  | reszty 1 |
+
 <p></p>
 <p> Liczba w binarnych to 1000011 (liczbe piszemy od dołu tabeli do gory)</p>
 <p> Liczbe binarna na dziesietny </p>
@@ -35,17 +36,19 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 
 <p> Konwersja liczby binrnej na osemkowa</p>
 <p></p>
-| Tabela konfersji osemkowo | dwojkowej |
-| ------------------------------------- | 
-| CYFRA OSEMKOWA  |   CYFRA DWOJKOWA   |
-|       0         |     000            |
-|       1         |     001            |
-|       2         |     010            |
-|       3         |     011            |
-|       4         |     100            |
-|       5         |     101            |
-|       6         |     110            |
-|       7         |     111            |
+
+ | Tabela konfersji osemkowo | dwojkowej |
+ | ------------------------------------- |  
+ | CYFRA OSEMKOWA  |   CYFRA DWOJKOWA   |
+ |       0         |     000            |
+ |       1         |     001            |
+ |       2         |     010            |
+ |       3         |     011            |
+ |       4         |     100            |
+ |       5         |     101            |
+ |       6         |     110            |
+ |       7         |     111            |
+
 <p></p>
 <p> Aby przekonwertowac liczbe dwojkowa na osemkowa musimy ciag 0 i 1 w ststemie binarnym rozdzielic po 3 cyfry np:</p>
 <p> 10110101</p
@@ -56,25 +59,26 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 # Konwersja dwojkowo- szesnatskowa
 
 <p> </p>
-| Tabela konfersji dwojkowo szesnastkowej |
-| --------------------------------------  |
-| CYFRA SZESNASTKOWA  |   CYFRA DWOJKOWA  |
-|       0             |     0000          |
-|       1             |     0001          |
-|       2             |     0010          |
-|       3             |     0011          |
-|       4             |     0100          |
-|       5             |     0101          |
-|       6             |     0110          |
-|       7             |     0111          |
-|       8             |     8000          |
-|       9             |     1001          |
-|       A             |     1010          |
-|       B             |     1011          |
-|       C             |     1100          |
-|       D             |     1101          |
-|       E             |     1110          |
-|       F             |     1111          |
+
+ | Tabela konfersji dwojkowo szesnastkowej |
+ | --------------------------------------  |
+ | CYFRA SZESNASTKOWA  |   CYFRA DWOJKOWA  |
+ |       0             |     0000          |
+ |       1             |     0001          |
+ |       2             |     0010          |
+ |       3             |     0011          |
+ |       4             |     0100          |
+ |       5             |     0101          |
+ |       6             |     0110          |
+ |       7             |     0111          |
+ |       8             |     8000          |
+ |       9             |     1001          |
+ |       A             |     1010          |
+ |       B             |     1011          |
+ |       C             |     1100          |
+ |       D             |     1101          |
+ |       E             |     1110          |
+ |       F             |     1111          |
 
 <p> Konwertujac liczbe binarna na szesnastkowa, ciag 0 i 1 dzielimy po cztery cyfry</p>
 <p> 11101010 (2) </p>
