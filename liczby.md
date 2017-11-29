@@ -19,6 +19,7 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 ## Przeliczanie na rózne systemy
 
 <p>Zamiana z systemu dziesietnego na binarny i odwrotnie</p>
+<p></p>
 |--|-|-|--| --------|
 |67|2|=|33| reszty 1|
 |33|2|=|16| reszty 1|
@@ -27,13 +28,13 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 |4 |2|=|2 | reszty 0|
 |2 |2|=|1 | reszty 0|
 |1 |2|=|0 | reszty 1|
-
+<p></p>
 <p> Liczba w binarnych to 1000011 (liczbe piszemy od dołu tabeli do gory)</p>
 <p> Liczbe binarna na dziesietny </p>
 <p> 1000011 = 1*2e6 + 0*2e5 + 0*2e4 + 0*2e3 + 0*2e2 + 1+2e1 + 1*2e0  = 64+2+1 = 67 (10)</p>
 
 <p> Konwersja liczby binrnej na osemkowa</p>
-
+<p></p>
 |Tabela konfersji osemkowo | dwojkowej |
 |-----------------------------------|
 | CYFRA OSEMKOWA  |   CYFRA DWOJKOWA|
@@ -45,7 +46,7 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 |       5         |     101         |
 |       6         |     110         |
 |       7         |     111         |
-
+<p></p>
 <p> Aby przekonwertowac liczbe dwojkowa na osemkowa musimy ciag 0 i 1 w ststemie binarnym rozdzielic po 3 cyfry np:</p>
 <p> 10110101</p
 <p> 010 110 101 </p>
