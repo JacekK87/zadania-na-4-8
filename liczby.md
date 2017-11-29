@@ -37,13 +37,12 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 <p> Konwersja liczby binrnej na osemkowa</p>
 <p></p>
 
- | Tabela konfersji osemkowo | dwojkowej |
  | ------------------------------------- |  
- | CYFRA OSEMKOWA  |   CYFRA DWOJKOWA   |
- |       0         |     000            |
- |       1         |     001            |
- |       2         |     010            |
- |       3         |     011            |
+ | CYFRA OSEMKOWA | CYFRA DWOJKOWA |
+ | 0 | 000 |
+ | 1 | 001 |
+ | 2 | 010 |
+ | 3 | 011 |
  |       4         |     100            |
  |       5         |     101            |
  |       6         |     110            |
