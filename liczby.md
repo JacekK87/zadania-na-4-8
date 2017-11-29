@@ -37,16 +37,16 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 <p> Konwersja liczby binrnej na osemkowa</p>
 <p></p>
 
- | ------------------------------------- |  
+ | -------------- | -------------- |  
  | CYFRA OSEMKOWA | CYFRA DWOJKOWA |
  | 0 | 000 |
  | 1 | 001 |
  | 2 | 010 |
  | 3 | 011 |
- |       4         |     100            |
- |       5         |     101            |
- |       6         |     110            |
- |       7         |     111            |
+ | 4 | 100 |
+ | 5 | 101 |
+ | 6 | 110 |
+ | 7 | 111 |
 
 <p></p>
 <p> Aby przekonwertowac liczbe dwojkowa na osemkowa musimy ciag 0 i 1 w ststemie binarnym rozdzielic po 3 cyfry np:</p>
