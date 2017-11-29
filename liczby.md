@@ -20,22 +20,21 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 
 <p>Zamiana z systemu dziesietnego na binarny i odwrotnie</p>
 <p></p>
- | Liczenie| - | - | - | - | 
- | -- | - | - | -- | -------- |
- | 67 | 2 | = | 33 | reszty 1 |
- | 33 | 2 | = | 16 | reszty 1 |
- | 16 | 2 | = | 8 | reszty 0 |
- | 8 | 2 | = | 4 | reszty 0 |
- | 4 | 2 | = | 2 | reszty 0 |
- | 2 | 2 | = | 1 | reszty 0 |
- | 1 | 2 | = | 0 | reszty 1 |
+
+ <p> 67 : 2  = 33  reszty 1 
+ <p> 33 : 2  = 16  reszty 1 
+ <p> 16 : 2  = 8  reszty 0 
+ <p> 8 : 2  =  4  reszty 0 
+ <p> 4 : 2  =  2  reszty 0 
+ <p> 2 : 2  =  1  reszty 0 
+ <p> 1 : 2  =  0  reszty 1 
 
 <p></p>
 <p> Liczba w binarnych to 1000011 (liczbe piszemy od dołu tabeli do gory)</p>
 <p> Liczbe binarna na dziesietny </p>
 <p> 1000011 = 1*2e6 + 0*2e5 + 0*2e4 + 0*2e3 + 0*2e2 + 1+2e1 + 1*2e0  = 64+2+1 = 67 (10)</p>
 
-<p> Konwersja liczby binrnej na osemkowa</p>
+<p> Konwersja liczby binarnej na osemkowa</p>
 <p></p>
 
  | CYFRA OSEMKOWA |   CYFRA DWOJKOWA  |
