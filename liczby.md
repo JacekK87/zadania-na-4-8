@@ -21,6 +21,7 @@ W systemie dwójkowym występują dwie cyfry: 0, 1. Podstawą systemu jest liczb
 <p>Zamiana z systemu dziesietnego na binarny i odwrotnie</p>
 <p></p>
 
+ | -- | - | - | -- | -------- |
  | 67 | 2 | = | 33 | reszty 1 |
  | 33 | 2 | = | 16 | reszty 1 |
  | 16 | 2 | = | 8  | reszty 0 |
