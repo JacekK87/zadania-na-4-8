@@ -11,7 +11,7 @@ int main() {
 
         liczenie(&n, fib);
 
-            printf("Czy chcesz liczyc kolejna liczbe?? 1 - Tak / 0 - Nie\n");
+            printf("\n Czy chcesz wprowadzic  kolejna liczbe?? 1 - Tak / 0 - Nie\n");
             scanf("%d", &wybor);
     }
     while(wybor == 1);
